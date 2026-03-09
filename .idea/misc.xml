@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-boot-9-02/foo-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-9-02/vod-app/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-9-02/car-app/pom.xml" />
       </list>
     </option>
   </component>
