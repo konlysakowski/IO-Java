@@ -3,10 +3,11 @@ package car.repository.mem;
 import org.springframework.stereotype.Component;
 import car.repository.ManufacturerDao;
 import car.model.Manufacturer;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Component
+@Repository
 public class MemManufacturerDao implements ManufacturerDao {
     @Override
     public List<Manufacturer> findAll() {

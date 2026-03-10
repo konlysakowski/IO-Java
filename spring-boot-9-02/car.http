@@ -1,0 +1,24 @@
+### GET all dealerships
+GET http://localhost:8080/webapi/dealerships
+
+### GET all dealerships with params
+GET http://localhost:8080/webapi/dealerships?phrase=abc
+custom-header: custom-value
+Cookie: some-cookie=some-value
+
+### GET dealership by id
+GET http://localhost:8080/webapi/dealerships/1
+Accept: application/xml
+
+### GET dealerships selling model
+GET http://localhost:8080/webapi/models/1/dealerships
+Accept: application/json
+
+### CREATE new dealership
+POST http://localhost:8080/webapi/dealerships
+Content-Type: application/json
+
+{
+  "name": "Auto Skup L.O.M",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}

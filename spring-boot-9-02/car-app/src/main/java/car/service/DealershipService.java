@@ -15,4 +15,6 @@ public interface DealershipService {
 
     List<Model> getModelsInDealership(Dealership c);
 
+    Dealership addDealership(Dealership dealership);
+
 }

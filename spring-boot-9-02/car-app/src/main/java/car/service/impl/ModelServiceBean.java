@@ -9,11 +9,12 @@ import car.model.Dealership;
 import car.model.Manufacturer;
 import car.model.Model;
 import car.service.ModelService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.logging.Logger;
 
-@Component
+@Service
 public class ModelServiceBean implements ModelService {
 
     private static final Logger log = Logger.getLogger(ModelService.class.getName());

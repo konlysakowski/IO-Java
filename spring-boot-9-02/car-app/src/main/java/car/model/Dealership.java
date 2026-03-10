@@ -1,19 +1,20 @@
 package car.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Dealership {
 
-    private int id;
+    private Integer id;
     private String name;
     private String logo; //url logo w przypadku UI będzie zaciągany dynamicznie
 
     @JsonIgnore
     private List<Model> models = new ArrayList<>();
-    public Dealership(int id, String name, String logo) {//konsturktor
+    public Dealership(Integer id, String name, String logo) {//konsturktor
         this.id = id;
         this.name = name;
         this.logo = logo;
@@ -22,11 +23,11 @@ public class Dealership {
     public Dealership() {//bezparametrowy
     }
 //settery, gettery i to String - później będziemy korzystać z wynalazku Lombok
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

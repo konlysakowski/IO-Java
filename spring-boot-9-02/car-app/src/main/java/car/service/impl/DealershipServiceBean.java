@@ -7,11 +7,12 @@ import car.model.Model;
 import car.repository.DealershipDao;
 import car.repository.ModelDao;
 import car.service.DealershipService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.logging.Logger;
 
-@Component
+@Service
 @Scope("prototype")
 public class DealershipServiceBean implements DealershipService {
 
@@ -50,4 +51,9 @@ public class DealershipServiceBean implements DealershipService {
         return dealershipDao.findByModel(m);
     }
 
+    @Override
+    public Dealership addDealership(Dealership dealership) {
+        log.info("adding new dealership " + dealership);
+        return dealershipDao.save(dealership);
+    }
 }

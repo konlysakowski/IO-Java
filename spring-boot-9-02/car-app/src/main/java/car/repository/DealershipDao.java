@@ -13,4 +13,6 @@ public interface DealershipDao {
 
     List<Dealership> findByModel(Model m);
 
+    Dealership save(Dealership dealership);
+
 }

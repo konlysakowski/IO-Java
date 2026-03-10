@@ -1,10 +1,13 @@
 package car.web.rest;
 
 
+import car.model.Model;
+import car.service.ModelService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import car.model.Dealership;
 import car.service.DealershipService;
 
@@ -13,15 +16,57 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @Slf4j
+@RequestMapping("/webapi")
 public class DealershipRest {
 
     private final DealershipService dealershipService;
+    private final ModelService modelService;
 
     @GetMapping("/dealerships")
-    List<Dealership> getDealerships() {
+    List<Dealership> getDealerships(
+            @RequestParam(value = "phrase", required = false) String phrase,
+            @RequestHeader(value = "custom-header", required = false) String customHeader,
+            @CookieValue(value = "some-cookie", required = false) String someCookie
+     ){
         log.info("about to retrieve dealerships list");
+        log.info("phrase param: {}", phrase);
         List<Dealership> dealerships = dealershipService.getAllDealerships();
         log.info("{} dealerships found", dealerships.size());
         return dealerships;
     }
+
+    @GetMapping("/dealerships/{id}")
+    ResponseEntity<Dealership> getDealership(@PathVariable("id") int id) {
+        log.info("about to retrieve dealership with id {}", id);
+        Dealership dealership = dealershipService.getDealershipById(id);
+        log.info("{} dealership found", dealership);
+        if(dealership!=null){
+            return ResponseEntity.ok(dealership);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+    }
+
+    @GetMapping("/models/{modelId}/dealerships")
+    ResponseEntity<List<Dealership>> getDealershipsSellingModel(@PathVariable("modelId") int modelId) {
+        log.info("about to retrieve dealerships selling model {}", modelId);
+        Model model = modelService.getModelById(modelId);
+        if(model==null){
+            return ResponseEntity.notFound().build();
+        } else {
+            List<Dealership> dealerships = dealershipService.getDealershipByModels(model);
+            log.info("there's {} dealerships selling model {}", dealerships.size(), model.getName());
+            return ResponseEntity.ok(dealerships);
+        }
+    }
+
+    @PostMapping("/dealerships")
+    ResponseEntity<Dealership> addDealership(@RequestBody Dealership dealership) {
+        log.info("about to add new dealership {}", dealership);
+        //TODO validation
+        dealership = dealershipService.addDealership(dealership);
+        log.info("new dealership added {}", dealership);
+        return ResponseEntity.status(HttpStatus.CREATED).body(dealership);
+    }
 }
+

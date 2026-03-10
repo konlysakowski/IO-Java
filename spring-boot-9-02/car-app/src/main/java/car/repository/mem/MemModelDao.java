@@ -5,11 +5,12 @@ import car.repository.ModelDao;
 import car.model.Dealership;
 import car.model.Manufacturer;
 import car.model.Model;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Component
+@Repository
 public class MemModelDao implements ModelDao {
     @Override
     public List<Model> findAll() {
