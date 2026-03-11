@@ -1,6 +1,8 @@
 package car.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
@@ -9,7 +11,11 @@ import java.util.List;
 public class Dealership {
 
     private Integer id;
+
+    @NotNull
+    @Size(min = 2, max = 30)
     private String name;
+
     private String logo; //url logo w przypadku UI będzie zaciągany dynamicznie
 
     @JsonIgnore

@@ -1,5 +1,8 @@
 package car.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import tools.jackson.databind.annotation.JsonSerialize;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +11,8 @@ public class Manufacturer {
     private int id;
     private String name;
     private String country;
+
+    @JsonIgnore
     private List<Model> models = new ArrayList<>();
     public Manufacturer(int id, String name, String country) {
         this.id = id;

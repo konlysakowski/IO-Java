@@ -17,8 +17,31 @@ Accept: application/json
 ### CREATE new dealership
 POST http://localhost:8080/webapi/dealerships
 Content-Type: application/json
+Accept-Language: pl
 
 {
-  "name": "Auto Skup L.O.M",
+  "name": "A",
   "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+
+### GET all models
+GET http://localhost:8080/webapi/models
+
+### GET model by id
+GET http://localhost:8080/webapi/models/1
+
+### GET models sold in dealerships
+GET http://localhost:8080/webapi/dealership/1/models
+Accept: application/json
+
+### CREATE new model
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
 }
