@@ -42,6 +42,11 @@ public class DealershipRest {
         log.info("phrase param: {}", phrase);
         log.info("custom-header param: {}", customHeader);
         log.info("some-cookie param: {}", someCookie);
+
+        if(phrase!=null && phrase.equals("foo")){
+            throw new IllegalArgumentException("Foo!");
+        }
+
         List<Dealership> dealerships = dealershipService.getAllDealerships();
         log.info("{} dealerships found", dealerships.size());
         return dealerships;

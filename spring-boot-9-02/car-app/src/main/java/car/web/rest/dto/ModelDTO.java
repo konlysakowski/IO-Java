@@ -1,5 +1,6 @@
 package car.web.rest.dto;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data

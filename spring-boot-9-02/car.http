@@ -2,7 +2,7 @@
 GET http://localhost:8080/webapi/dealerships
 
 ### GET all dealerships with params
-GET http://localhost:8080/webapi/dealerships?phrase=abc
+GET http://localhost:8080/webapi/dealerships?phrase=foo
 custom-header: custom-value
 Cookie: some-cookie=some-value
 
@@ -20,7 +20,7 @@ Content-Type: application/json
 Accept-Language: pl
 
 {
-  "name": "A",
+  "name": "Autopunkt",
   "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
 }
 
@@ -43,5 +43,5 @@ Content-Type: application/json
   "name": "Vectra",
   "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
   "engine": "2.0",
-  "manufacturerId": 4
+  "manufacturerId": 5
 }

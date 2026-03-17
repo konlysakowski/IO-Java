@@ -5,11 +5,13 @@ import car.model.Model;
 import car.service.DealershipService;
 import car.service.ModelService;
 import car.web.rest.dto.ModelDTO;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -61,8 +63,11 @@ public class ModelRest {
     }
 
     @PostMapping("/model")
-    ResponseEntity<?> addModel(@RequestBody ModelDTO modelDTO) {
+    ResponseEntity<?> addModel(@RequestBody @Valid ModelDTO modelDTO, Errors errors) {
         log.info("about to add new model {}", modelDTO);
+        if(errors.hasErrors()) {
+            return ResponseEntity.badRequest().build();
+        }
         Model model = new Model();
         model.setName(modelDTO.getName());
         model.setBrandLogo(modelDTO.getBrandLogo());
