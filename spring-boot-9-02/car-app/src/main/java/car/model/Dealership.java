@@ -1,6 +1,7 @@
 package car.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.NoArgsConstructor;
@@ -8,18 +9,25 @@ import lombok.NoArgsConstructor;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
+@Table(name = "dealership")
 public class Dealership {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @NotNull
     @Size(min = 2, max = 30)
     private String name;
 
+    @Column(name = "logo")
     private String logo; //url logo w przypadku UI będzie zaciągany dynamicznie
 
+    @ManyToMany(mappedBy = "dealerships")
     @JsonIgnore
     private List<Model> models = new ArrayList<>();
+
     public Dealership(Integer id, String name, String logo) {//konsturktor
         this.id = id;
         this.name = name;

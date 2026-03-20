@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>VOD</title>
+    <title>CAR</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
     <link rel="stylesheet" th:href="@{/css/style.css}"/>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"/>
@@ -9,7 +9,7 @@
 <body>
 <header>
     <a href="./"><h1>Pix</h1></a>
-    <h2 th:text="${title}"></h2>
+    <h2 th:text="${name}"></h2>
     <h3>
     </h3>
 </header>
@@ -17,24 +17,24 @@
 
     <table>
         <tr>
-            <th>Poster</th>
-            <th>Title</th>
-            <th>Director</th>
-            <th>Rating</th>
-            <th>Cinemas</th>
+            <th>Brand logo</th>
+            <th>Name</th>
+            <th>Manufacturer</th>
+            <th>Engine</th>
+            <th>Dealerships</th>
         </tr>
-        <tr th:each="m : ${movies}">
+        <tr th:each="m : ${models}">
             <td>
-                <img th:src="${m.poster}"/>
+                <img th:src="${m.brandLogo}"/>
             </td>
-            <td th:text="${m.title}"></td>
+            <td th:text="${m.name}"></td>
             <td>
-                <a th:href="@{/movies?directorId={id}(id=${m.director.id})}"
-                   th:text="${m.director.firstName} + ' ' + ${m.director.lastName}"></a>
+                <a th:href="@{/models?manufacturerId={id}(id=${m.manufacturer.id})}"
+                   th:text="${m.manufacturer.name} + ' ' + ${m.manufacturer.country}"></a>
             </td>
-            <td class="rating" th:text="${m.rating}"></td>
+            <td class="engine" th:text="${m.engine}"></td>
             <td class="search-container">
-                <a class="search" th:href="@{/cinemas?movieId={id}(id=${m.id})}"></a>
+                <a class="search" th:href="@{/dealerships?modelId={id}(id=${m.id})}"></a>
             </td>
         </tr>
     </table>

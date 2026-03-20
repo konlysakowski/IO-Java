@@ -26,10 +26,15 @@ public class DealershipController {
             @RequestParam(value = "modelId", required = false) Integer modelId) {
         log.info("about to display dealerships list selling model {}", modelId);
         if(modelId!=null){
-            Model model = modelService.getModelById(modelId);
+            car.model.Model model_ = modelService.getModelById(modelId);
+            List<Dealership> dealerships = dealershipService.getDealershipByModels(model_);
+            model.addAttribute("dealerships", dealerships);
+            model.addAttribute("name", "Dealerships selling '" + model_.getName() + "'");
+        } else {
+            List<Dealership> dealerships = dealershipService.getAllDealerships();
+            model.addAttribute("dealerships", dealerships);
+            model.addAttribute("name", "Dealerships");
         }
-        List<Dealership> dealerships = dealershipService.getAllDealerships();
-        model.addAttribute("dealerships", dealerships);
 
         return "dealershipsView";
     }

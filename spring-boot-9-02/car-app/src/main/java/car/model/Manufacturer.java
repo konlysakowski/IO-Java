@@ -1,19 +1,27 @@
 package car.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
 import tools.jackson.databind.annotation.JsonSerialize;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class Manufacturer {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String name;
+
     private String country;
 
+    @OneToMany(mappedBy = "manufacturer")
     @JsonIgnore
     private List<Model> models = new ArrayList<>();
+
     public Manufacturer(int id, String name, String country) {
         this.id = id;
         this.name = name;

@@ -9,7 +9,7 @@
 <body>
 <header>
     <a href="./"><h1>Pix</h1></a>
-    <h2 th:text="${title}"></h2>
+    <h2 th:text="${name}"></h2>
     <h3>
     </h3>
 </header>
@@ -17,14 +17,14 @@
 
     <table>
         <tr>
-            <th>First name</th>
-            <th>Last name</th>
+            <th>Name</th>
+            <th>Country</th>
         </tr>
-        <tr th:each="d : ${directors}">
-            <td th:text="${d.firstName}"></td>
+        <tr th:each="d : ${manufacturers}">
+            <td th:text="${d.name}"></td>
             <td>
-                <a th:href="@{/movies?directorId={id}(id=${d.id})}"
-                   th:text="${d.lastName}"></a>
+                <a th:href="@{/models?manufacturerId={id}(id=${d.id})}"
+                   th:text="${d.country}"></a>
             </td>
         </tr>
     </table>

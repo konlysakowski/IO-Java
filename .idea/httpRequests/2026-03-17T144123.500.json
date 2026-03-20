@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-03-17T13:41:23.713Z",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/webapi/dealerships"
+}

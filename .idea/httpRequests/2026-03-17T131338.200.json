@@ -1,0 +1,48 @@
+[
+  {
+    "id": 2,
+    "name": "Fabia",
+    "brandLogo": "https://cdn.skoda-storyboard.com/2020/11/SKODA-3D-Standard-Logo_sRGB-e1478246875778.png",
+    "manufacturer": {
+      "id": 1,
+      "name": "Skoda",
+      "country": "Czech Republic"
+    },
+    "engine": 1.4,
+    "dealerships": [
+      {
+        "id": 1,
+        "name": "Autopunkt",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+      },
+      {
+        "id": 3,
+        "name": "Karo Auto Komis",
+        "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Jumpy",
+    "brandLogo": "https://logos-world.net/wp-content/uploads/2021/08/Citroen-Emblem-700x394.png",
+    "manufacturer": {
+      "id": 3,
+      "name": "Citroen",
+      "country": "France"
+    },
+    "engine": 2.0,
+    "dealerships": [
+      {
+        "id": 1,
+        "name": "Autopunkt",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+      },
+      {
+        "id": 4,
+        "name": "Superauto",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSThx78YXgqyqOL2yccb_4svVGx5dIuP8neg&s"
+      }
+    ]
+  }
+]

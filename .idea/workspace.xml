@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24c5c0c7-ae77-4fb8-ba60-a60f56d813a9" name="Changes" comment="Lab5">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/web/rest/ui/ModelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Dealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/web/rest/ui/DealershipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/web/rest/ui/DealershipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/dealershipsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/dealershipsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/manufacturersView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/manufacturersView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/modelsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/modelsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/car/web/rest/ui/DealershipController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/car/web/rest/ui/DealershipController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/dealershipsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/dealershipsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/manufacturersView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/manufacturersView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/modelsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/modelsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/VodApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/VodComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/config/VodConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/model/Dealership.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/model/Manufacturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/DealershipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/ManufacturerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/ModelDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/dummy/DummyDealershipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/mem/MemDealershipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/mem/MemManufacturerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/mem/MemModelDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/repository/mem/SampleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/service/DealershipService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/service/ModelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/service/VodServiceMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/service/impl/DealershipServiceBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/service/impl/ModelServiceBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/web/rest/DealershipRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/vod/web/rest/HelloRest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kafa-Kun-K&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/konlysakowski/IO-Java.git&quot;,
+    &quot;accountId&quot;: &quot;5a51e478-db66-4430-a42e-8c5553d8b205&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3B4XiacK7J0Tl0giMFx2PfCaKg4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.init.sql.executor": "Run",
+    "Docker.docker-car.mysql-books: Compose Deployment.executor": "Run",
+    "Docker.docker-car: Compose Deployment.executor": "Run",
+    "Docker.docker-vod: Compose Deployment.executor": "Run",
+    "HTTP Request.car | CREATE new dealership.executor": "Run",
+    "HTTP Request.car | CREATE new model.executor": "Run",
+    "HTTP Request.car | GET all dealerships with params.executor": "Run",
+    "HTTP Request.car | GET all models.executor": "Run",
+    "HTTP Request.car | GET model by id.executor": "Run",
+    "HTTP Request.car | GET models sold in dealerships.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CarApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Student/Documents/GitHub/IO-Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "07852bd4-a30a-422a-8b7c-185de409f484",
+      "e0839ad0-9fd4-49c1-88fc-d3d5d2e97c33"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Documents\GitHub\IO-Java\spring-boot-9-02\car-app\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Documents\GitHub\IO-Java\spring-boot-9-02\docker-car" />
+      <recent name="C:\Users\Student\Documents\GitHub\IO-Java\spring-boot-9-02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Database Script.init.sql">
+    <configuration name="init.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/spring-boot-9-02/docker-car/mysql/init.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="07852bd4-a30a-422a-8b7c-185de409f484" />
+      <method v="2" />
+    </configuration>
+    <configuration name="car | CREATE new model" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-boot-9-02/car.http" executionIdentifier="CREATE new model" index="9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="car-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="car.CarApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FooAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="foo-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.zajecia.fooapp.FooAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-car: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="spring-boot-9-02/docker-car/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-car.mysql-books: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mysql-books" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="spring-boot-9-02/docker-car/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-vod: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="D:/KKIO/spring-boot-9-02/docker-vod/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.init.sql" />
+        <item itemvalue="Docker.docker-car: Compose Deployment" />
+        <item itemvalue="Docker.docker-car.mysql-books: Compose Deployment" />
+        <item itemvalue="Docker.docker-vod: Compose Deployment" />
+        <item itemvalue="HTTP Request.car | CREATE new model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24c5c0c7-ae77-4fb8-ba60-a60f56d813a9" name="Changes" comment="" />
+      <created>1773749445455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773749445455</updated>
+      <workItem from="1773749447150" duration="7361000" />
+      <workItem from="1773922875095" duration="100000" />
+      <workItem from="1773997658807" duration="7138000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lab5">
+      <option name="closed" value="true" />
+      <created>1773756853985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773756853985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab5" />
+  </component>
+</project>
