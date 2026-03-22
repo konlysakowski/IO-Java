@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-03-10T19:13:12.128Z",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/webapi/dealerships"
+}

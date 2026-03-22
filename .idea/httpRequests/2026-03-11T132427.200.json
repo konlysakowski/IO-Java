@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Autopunkt",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+  },
+  {
+    "id": 2,
+    "name": "Dynamica Caroutlet",
+    "logo": "https://caroutlet.pl/wp-content/uploads/2024/04/dynamica-uzywanev3.svg"
+  },
+  {
+    "id": 3,
+    "name": "Karo Auto Komis",
+    "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Superauto",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSThx78YXgqyqOL2yccb_4svVGx5dIuP8neg&s"
+  }
+]

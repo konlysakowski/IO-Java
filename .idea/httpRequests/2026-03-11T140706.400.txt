@@ -1,0 +1,2 @@
+errors:
+Nazwa komisu już jest zajęta

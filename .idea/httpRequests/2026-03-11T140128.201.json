@@ -1,0 +1,12 @@
+{
+  "id": 9,
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "manufacturer": {
+    "id": 4,
+    "name": "Opel",
+    "country": "Germany"
+  },
+  "engine": 1.8,
+  "dealerships": []
+}

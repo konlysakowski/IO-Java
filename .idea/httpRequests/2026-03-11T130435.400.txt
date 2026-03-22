@@ -1,0 +1,2 @@
+errors:
+Il campo nome nell'oggetto commissione deve contenere tra 2 e 30 caratteri
