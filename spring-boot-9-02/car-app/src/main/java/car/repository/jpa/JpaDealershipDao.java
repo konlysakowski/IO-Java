@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-@Primary
 public class JpaDealershipDao implements DealershipDao {
 
     @PersistenceContext
@@ -32,7 +31,7 @@ public class JpaDealershipDao implements DealershipDao {
     @Override
     public List<Dealership> findByModel(Model m) {
         return entityManager
-                .createQuery("select c from Dealership inner join c.models model where model=:model")
+                .createQuery("select c from Dealership c inner join c.models model where model=:model")
                 .setParameter("model", m)
                 .getResultList();
     }

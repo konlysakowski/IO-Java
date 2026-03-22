@@ -14,6 +14,7 @@ public class Model {
 
     private String name;
 
+    @Column(name="brandlogo")
     private String brandLogo;//url
 
     @ManyToOne
