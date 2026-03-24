@@ -40,8 +40,11 @@ POST http://localhost:8080/webapi/model
 Content-Type: application/json
 
 {
-  "name": "Vectra",
+  "name": "Apocalypse now!",
   "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
   "engine": "2.0",
-  "manufacturerId": 5
+  "manufacturerId": 4
 }
+
+### shutdown service
+POST http://localhost:8080/actuator/shutdown

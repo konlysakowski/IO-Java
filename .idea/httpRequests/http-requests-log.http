@@ -1,3 +1,147 @@
+POST http://localhost:8080/actuator/shutdown
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-03-24T120930.200.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Apocalypse now!",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-24T115600.500.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Apocalypse now!",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-24T115533.500.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 195
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-24T114203.201.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 195
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 5
+}
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 195
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 5
+}
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 195
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 5
+}
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 195
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 5
+}
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 195
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Vectra",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 5
+}
+
+###
+
 POST http://localhost:8080/webapi/model
 Content-Type: application/json
 Content-Length: 195

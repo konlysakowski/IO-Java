@@ -1,6 +1,9 @@
 package car.service.impl;
 
+import jakarta.transaction.Transaction;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Component;
 import car.repository.DealershipDao;
 import car.repository.ManufacturerDao;
@@ -10,6 +13,10 @@ import car.model.Manufacturer;
 import car.model.Model;
 import car.service.ModelService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.TransactionStatus;
+import org.springframework.transaction.support.DefaultTransactionDefinition;
+import org.springframework.transaction.support.TransactionTemplate;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -19,19 +26,16 @@ public class ModelServiceBean implements ModelService {
 
     private static final Logger log = Logger.getLogger(ModelService.class.getName());
 
-    @Autowired
-    public void setManufacturerDao(ManufacturerDao manufacturerDao) {
-        this.manufacturerDao = manufacturerDao;
-    }
+    private final ManufacturerDao manufacturerDao;
+    private final DealershipDao dealershipDao;
+    private final ModelDao modelDao;
+    private final PlatformTransactionManager transactionManager;
 
-    private ManufacturerDao manufacturerDao;
-    private DealershipDao dealershipDao;
-    private ModelDao modelDao;
-
-    public ModelServiceBean(ManufacturerDao manufacturerDao, DealershipDao dealershipDao, ModelDao modelDao) {
+    public ModelServiceBean(ManufacturerDao manufacturerDao, DealershipDao dealershipDao, ModelDao modelDao, PlatformTransactionManager transactionManager) {
         this.manufacturerDao = manufacturerDao;
         this.dealershipDao = dealershipDao;
         this.modelDao = modelDao;
+        this.transactionManager = transactionManager;
     }
 
     public List<Model> getAllModels() {
@@ -82,7 +86,18 @@ public class ModelServiceBean implements ModelService {
     @Override
     public Model addModel(Model m) {
         log.info("about to add model " + m);
-        return modelDao.add(m);
+        TransactionStatus ts = transactionManager.getTransaction(new DefaultTransactionDefinition());
+        try {
+            m = modelDao.add(m);
+            if(m.getName().equals("Apocalypse now!")) {
+                throw new RuntimeException("not yet!");
+            }
+            transactionManager.commit(ts);
+        } catch(RuntimeException ex) {
+            transactionManager.rollback(ts);
+            throw ex;
+        }
+        return m;
     }
 
     @Override
