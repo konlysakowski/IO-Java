@@ -1,0 +1,2 @@
+errors:
+Pole nazwa w obiekcie komis musi mieścić się pomiędzy 2 a 30 znaków

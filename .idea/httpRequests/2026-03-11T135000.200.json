@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "name": "Fiesta",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png",
+  "manufacturer": {
+    "id": 2,
+    "name": "Ford",
+    "country": "USA"
+  },
+  "engine": 1.6,
+  "dealerships": []
+}

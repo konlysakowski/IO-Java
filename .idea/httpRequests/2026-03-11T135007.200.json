@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "Octavia",
+  "brandLogo": "https://cdn.skoda-storyboard.com/2020/11/SKODA-3D-Standard-Logo_sRGB-e1478246875778.png",
+  "manufacturer": {
+    "id": 1,
+    "name": "Skoda",
+    "country": "Czech Republic"
+  },
+  "engine": 2.0,
+  "dealerships": [
+    {
+      "id": 3,
+      "name": "Karo Auto Komis",
+      "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+    }
+  ]
+}

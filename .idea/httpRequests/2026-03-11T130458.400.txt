@@ -1,0 +1,2 @@
+errors:
+Il campo nome nell'oggetto commissione è obbligatorio

@@ -1,0 +1,2 @@
+errors:
+Field error in object 'dealership' on field 'name': rejected value [k]; codes [Size.dealership.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [dealership.name,name]; arguments []; default message [name],30,2]; default message [wielkość musi należeć do zakresu od 2 do 30]

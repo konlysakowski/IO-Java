@@ -5,9 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c5c0c7-ae77-4fb8-ba60-a60f56d813a9" name="Changes" comment="Lab5">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e643808-4ec4-4ceb-a48d-5c72cdd30849.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ce2498-b5c0-4891-bb32-6502eac64627.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/data/DataDealershipDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/data/DealershipRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/data/ManufacturerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/data/ModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/jpa/JpaModelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e643808-4ec4-4ceb-a48d-5c72cdd30849.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e643808-4ec4-4ceb-a48d-5c72cdd30849/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e643808-4ec4-4ceb-a48d-5c72cdd30849/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e643808-4ec4-4ceb-a48d-5c72cdd30849/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e643808-4ec4-4ceb-a48d-5c72cdd30849/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ce2498-b5c0-4891-bb32-6502eac64627.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ce2498-b5c0-4891-bb32-6502eac64627/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ce2498-b5c0-4891-bb32-6502eac64627/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ce2498-b5c0-4891-bb32-6502eac64627/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ce2498-b5c0-4891-bb32-6502eac64627/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/jpa/JpaDealershipDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/java/car/repository/jpa/JpaDealershipDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/dealershipsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/src/main/resources/templates/dealershipsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/car/model/Manufacturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/car/model/Manufacturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/car/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/car/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/dealershipsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-9-02/car-app/target/classes/templates/dealershipsView.html" afterDir="false" />
+>>>>>>> 71cad0c6333e33d522b08e56fe90b8b76aaf5272
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +84,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Database Script.init.sql.executor&quot;: &quot;Run&quot;,
@@ -83,6 +116,40 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.init.sql.executor": "Run",
+    "Docker.docker-car.mysql-books: Compose Deployment.executor": "Run",
+    "Docker.docker-car: Compose Deployment.executor": "Run",
+    "Docker.docker-vod: Compose Deployment.executor": "Run",
+    "HTTP Request.car | CREATE new dealership.executor": "Run",
+    "HTTP Request.car | CREATE new model.executor": "Run",
+    "HTTP Request.car | GET all dealerships with params.executor": "Run",
+    "HTTP Request.car | GET all models.executor": "Run",
+    "HTTP Request.car | GET model by id.executor": "Run",
+    "HTTP Request.car | GET models sold in dealerships.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CarApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Student/Documents/GitHub/IO-Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Docker",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> 71cad0c6333e33d522b08e56fe90b8b76aaf5272
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -103,7 +170,7 @@
       <recent name="C:\Users\Student\Documents\GitHub\IO-Java\spring-boot-9-02" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.init.sql">
+  <component name="RunManager" selected="Spring Boot.CarApplication">
     <configuration name="init.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/spring-boot-9-02/docker-car/mysql/init.sql" />
       <script-mode>FILE</script-mode>
@@ -164,8 +231,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.init.sql" />
         <item itemvalue="Docker.docker-car: Compose Deployment" />
+        <item itemvalue="Database Script.init.sql" />
         <item itemvalue="Docker.docker-car.mysql-books: Compose Deployment" />
         <item itemvalue="Docker.docker-vod: Compose Deployment" />
         <item itemvalue="HTTP Request.car | CREATE new model" />
@@ -181,6 +248,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="24c5c0c7-ae77-4fb8-ba60-a60f56d813a9" name="Changes" comment="" />
@@ -190,8 +260,15 @@
       <updated>1773749445455</updated>
       <workItem from="1773749447150" duration="7361000" />
       <workItem from="1773922875095" duration="100000" />
+<<<<<<< HEAD
       <workItem from="1773997658807" duration="7383000" />
       <workItem from="1774005583478" duration="24000" />
+=======
+      <workItem from="1773997658807" duration="7138000" />
+      <workItem from="1774169775733" duration="813000" />
+      <workItem from="1774171188088" duration="549000" />
+      <workItem from="1774172618762" duration="2709000" />
+>>>>>>> 71cad0c6333e33d522b08e56fe90b8b76aaf5272
     </task>
     <task id="LOCAL-00001" summary="Lab5">
       <option name="closed" value="true" />

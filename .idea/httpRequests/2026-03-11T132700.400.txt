@@ -1,0 +1,2 @@
+errors:
+Pole nazwa w obiekcie komis jest obowiązkowe
