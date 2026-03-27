@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-03-27T09:45:09.961Z",
+  "status": 403,
+  "error": "Forbidden",
+  "message": "Forbidden",
+  "path": "/webapi/dealerships"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/spring-boot-9-02/docker-car/mysql/init.sql" value="53ed3136-3fa6-4721-b75c-0cd56ebfef32" />
+  </component>
+</project>

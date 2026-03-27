@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-253.32098.37">
     <data-source name="car_db@localhost" uuid="53ed3136-3fa6-4721-b75c-0cd56ebfef32">
-      <database-info product="MySQL" version="8.0.41" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.5.0 (Revision: a7b3c94f50efbddb9f0dd69b3e0d1aaa25305cd6)" dbms="MYSQL" exact-version="8.0.41" exact-driver-version="9.5">
+      <database-info product="MySQL" version="8.0.45" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.5.0 (Revision: a7b3c94f50efbddb9f0dd69b3e0d1aaa25305cd6)" dbms="MYSQL" exact-version="8.0.45" exact-driver-version="9.5">
         <extra-name-characters>$</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
         <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>

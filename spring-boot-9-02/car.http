@@ -18,9 +18,10 @@ Accept: application/json
 POST http://localhost:8080/webapi/dealerships
 Content-Type: application/json
 Accept-Language: pl
+Authorization: Basic dbuser1 dbuser1
 
 {
-  "name": "Autopunkt",
+  "name": "Autopunkt123",
   "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
 }
 

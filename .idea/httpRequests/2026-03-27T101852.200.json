@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "name": "Octavia",
+    "brandLogo": "https://cdn.skoda-storyboard.com/2020/11/SKODA-3D-Standard-Logo_sRGB-e1478246875778.png",
+    "manufacturer": {
+      "id": 1,
+      "name": "Skoda",
+      "country": "Czech Republic"
+    },
+    "engine": 2.0,
+    "dealerships": [
+      {
+        "id": 1,
+        "name": "Autopunkt",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+      },
+      {
+        "id": 3,
+        "name": "Karo Auto Komis",
+        "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fabia",
+    "brandLogo": "https://cdn.skoda-storyboard.com/2020/11/SKODA-3D-Standard-Logo_sRGB-e1478246875778.png",
+    "manufacturer": {
+      "id": 1,
+      "name": "Skoda",
+      "country": "Czech Republic"
+    },
+    "engine": 1.4,
+    "dealerships": [
+      {
+        "id": 3,
+        "name": "Karo Auto Komis",
+        "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Focus",
+    "brandLogo": "https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png",
+    "manufacturer": {
+      "id": 2,
+      "name": "Ford",
+      "country": "USA"
+    },
+    "engine": 2.2,
+    "dealerships": [
+      {
+        "id": 1,
+        "name": "Autopunkt",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+      },
+      {
+        "id": 2,
+        "name": "Dynamica Caroutlet",
+        "logo": "https://caroutlet.pl/wp-content/uploads/2024/04/dynamica-uzywanev3.svg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Fiesta",
+    "brandLogo": "https://www.citypng.com/public/uploads/preview/ford-logo-emblem-hd-png-70175169471401511cpxj0ogw.png",
+    "manufacturer": {
+      "id": 2,
+      "name": "Ford",
+      "country": "USA"
+    },
+    "engine": 1.6,
+    "dealerships": [
+      {
+        "id": 1,
+        "name": "Autopunkt",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+      },
+      {
+        "id": 3,
+        "name": "Karo Auto Komis",
+        "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Berlingo",
+    "brandLogo": "https://logos-world.net/wp-content/uploads/2021/08/Citroen-Emblem-700x394.png",
+    "manufacturer": {
+      "id": 3,
+      "name": "Citroen",
+      "country": "France"
+    },
+    "engine": 2.4,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "Dynamica Caroutlet",
+        "logo": "https://caroutlet.pl/wp-content/uploads/2024/04/dynamica-uzywanev3.svg"
+      },
+      {
+        "id": 3,
+        "name": "Karo Auto Komis",
+        "logo": "https://komiskaro.pl/f/199d1589/6529/crop/detect/60/v0/w0/h200/L_011-1.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Jumpy",
+    "brandLogo": "https://logos-world.net/wp-content/uploads/2021/08/Citroen-Emblem-700x394.png",
+    "manufacturer": {
+      "id": 3,
+      "name": "Citroen",
+      "country": "France"
+    },
+    "engine": 2.0,
+    "dealerships": [
+      {
+        "id": 1,
+        "name": "Autopunkt",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNWXrN3dgjBHiUUo3hRCn3NmaTbPbthqgvrg&s"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Astra",
+    "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+    "manufacturer": {
+      "id": 4,
+      "name": "Opel",
+      "country": "Germany"
+    },
+    "engine": 1.2,
+    "dealerships": [
+      {
+        "id": 2,
+        "name": "Dynamica Caroutlet",
+        "logo": "https://caroutlet.pl/wp-content/uploads/2024/04/dynamica-uzywanev3.svg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Insignia",
+    "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+    "manufacturer": {
+      "id": 4,
+      "name": "Opel",
+      "country": "Germany"
+    },
+    "engine": 3.0,
+    "dealerships": []
+  }
+]

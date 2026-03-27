@@ -1,6 +1,7 @@
 package car.service.impl;
 
 import org.springframework.context.annotation.Scope;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 import car.model.Dealership;
 import car.model.Model;
@@ -51,6 +52,7 @@ public class DealershipServiceBean implements DealershipService {
         return dealershipDao.findByModel(m);
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @Override
     public Dealership addDealership(Dealership dealership) {
         log.info("adding new dealership " + dealership);

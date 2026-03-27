@@ -1,3 +1,279 @@
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 114
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt123",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T104532.400.txt
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 114
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt123",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T104521.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser2
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 114
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt123",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T104509.403.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 114
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt123",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T104452.201.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser2 dbuser2
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 114
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt123",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T103703.404.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 114
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt123",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T103641.404.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic dbuser1 dbuser1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T103617.404.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic user1 user1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T103607.401.json
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Authorization: Basic user1 user1
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T102227.400.txt
+
+###
+
+POST http://localhost:8080/webapi/dealerships
+Content-Type: application/json
+Accept-Language: pl
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Autopunkt",
+  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
+}
+
+<> 2026-03-27T102212.401.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Authorization: Basic user1 user1
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Apocalypse now!",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-27T102045.508.txt
+
+###
+
+POST http://localhost:8080/webapi/model
+Authorization: Basic user2 user2
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Apocalypse now!",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-27T102022.403.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Authorization: Basic user2 user1
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=3C1864081A89EF9C4DC38B40190F73DD
+
+{
+  "name": "Apocalypse now!",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-27T102003.401.json
+
+###
+
+POST http://localhost:8080/webapi/model
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Apocalypse now!",
+  "brandLogo": "https://www.citypng.com/public/uploads/preview/hd-opel-logo-transparent-background-701751694707069gfhsibdnlp.png",
+  "engine": "2.0",
+  "manufacturerId": 4
+}
+
+<> 2026-03-27T101915.401.json
+
+###
+
+GET http://localhost:8080/webapi/models
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-27T101852.200.json
+
+###
+
 POST http://localhost:8080/actuator/shutdown
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.4
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -557,40 +833,6 @@ Accept: */*
 }
 
 <> 2026-03-17T131225.400.txt
-
-###
-
-POST http://localhost:8080/webapi/dealerships
-Content-Type: application/json
-Accept-Language: pl
-Content-Length: 111
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Autopunkt",
-  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
-}
-
-<> 2026-03-17T131222.400.txt
-
-###
-
-POST http://localhost:8080/webapi/dealerships
-Content-Type: application/json
-Accept-Language: pl
-Content-Length: 103
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "A",
-  "logo": "https://autoskup-lom.pl/wp-content/uploads/2017/11/auto-skup-L.O.M-1.png"
-}
-
-<> 2026-03-17T131213.400.txt
 
 ###
 
